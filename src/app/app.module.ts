@@ -8,20 +8,24 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from "./material.module";
 import {HttpClientModule} from "@angular/common/http";
+import {CartComponent} from "./shared/components/cart/cart.component";
+import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
+    CartComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        FormsModule,
-        BrowserAnimationsModule,
-        MaterialModule,
-        HttpClientModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    HttpClientModule,
+    MatIconModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
