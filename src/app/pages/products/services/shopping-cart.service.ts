@@ -47,4 +47,11 @@ export class ShoppingCartService {
     const total = this.products.reduce((acum,prod)=>acum+=prod.price*prod.qty,0);
     this.totalSubject.next(total);
   }
+
+  resetCart(){
+    this.cartSubject.next([]);
+    this.quantitySubject.next(0);
+    this.totalSubject.next(0);
+    this.products=[];
+  }
 }

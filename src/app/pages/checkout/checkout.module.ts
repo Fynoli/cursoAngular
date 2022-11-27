@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { CheckoupRoutingModule } from './checkoup-routing.module';
+import { CheckoutRoutingModule } from './checkout-routing.module';
 import { CheckoutComponent } from './checkout.component';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
@@ -19,7 +19,7 @@ import {DetailsComponent} from "./details/details.component";
     ],
   imports: [
     CommonModule,
-    CheckoupRoutingModule,
+    CheckoutRoutingModule,
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
