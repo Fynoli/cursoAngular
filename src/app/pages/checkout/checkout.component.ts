@@ -16,4 +16,8 @@ export class CheckoutComponent {
   onPickupOrDelivery(b: boolean) {
 
   }
+
+  onSubmit() {
+    console.log("El wacho compro algo")
+  }
 }

@@ -9,12 +9,14 @@ import {FormsModule} from "@angular/forms";
 import {MatRadioModule} from "@angular/material/radio";
 import {MatSelectModule} from "@angular/material/select";
 import {MatButtonModule} from "@angular/material/button";
+import {DetailsComponent} from "./details/details.component";
 
 
 @NgModule({
-  declarations: [
-    CheckoutComponent
-  ],
+    declarations: [
+        CheckoutComponent,
+        DetailsComponent
+    ],
   imports: [
     CommonModule,
     CheckoupRoutingModule,
